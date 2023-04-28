@@ -1,9 +1,9 @@
 def do_something():
     eg = ExceptionGroup("multiple exceptions occurred",
-                       (ValueError("incorrect value"),
-                        ValueError("not a positive value"),
-                        FileNotFoundError("Unknown file data.txt"),
-                        AttributeError("date")))
+                        (ValueError("incorrect value"),
+                         ValueError("not a positive value"),
+                         FileNotFoundError("Unknown file data.txt"),
+                         AttributeError("date")))
     raise eg
 
 
